@@ -1,6 +1,6 @@
-let result = document.getElementById("inputBox");
+let result = document.getElementById("inputext");
 
-let caluculate=(number)=>{
+let calc=(number)=>{
     result.value += number;
 }
 
@@ -14,7 +14,7 @@ let Result=()=>{
     }
 }
 
-function crl(){
+function clr(){
     result.value = " ";
 }
 
